@@ -11,8 +11,7 @@ cat <<"USAGE"
 Usage: create-project [OPTIONS] <name>
 
 	-h, --help        Show this help screen
-	-u, --url         Specify a local address, default is http://name.dev
-	-r, --remove      Remove a Virtual Host
+	-u, --url         Specify a local address, default is http://name.loc
 	-e, --email       Email of the administrator in the virtual host file
 	--list            List the current virtual host
 	-l, --laravel     Create a new Laravel project
@@ -53,7 +52,7 @@ project-list() {
 # Define and create default values.
 name="${!#}"
 email="webmaster@localhost"
-url="$name.dev"
+url="$name.loc"
 docroot="/var/www/$name"
 laravel=0
 

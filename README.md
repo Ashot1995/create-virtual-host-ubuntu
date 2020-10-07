@@ -1,7 +1,6 @@
 # create-virtual-host-ubuntu
 This Project help all create virtual host for ubuntu quickly and easy 
 
-
 Это сценарий оболочки, который создает новый виртуальный хост для заданного имени без необходимости проходить весь процесс.
 
 Монтаж

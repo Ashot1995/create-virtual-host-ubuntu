@@ -4,6 +4,7 @@ This Project help all create virtual host for ubuntu quickly and easy
 Это сценарий оболочки, который создает новый виртуальный хост для заданного имени без необходимости проходить весь процесс.
 
 Монтаж
+
 Загрузите сценарий в папку, /usr/local/binа шаблон - в папку /etc/apache2/sites-available.
 
 1)git clone https://github.com/Ashot1995/create-virtual-host-ubuntu.git
